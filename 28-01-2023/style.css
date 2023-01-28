@@ -1,0 +1,72 @@
+h1{
+    font-size: 70px;
+    /* text-align: end; */
+    text-shadow: 4px 2px gray;
+    
+}
+
+
+/* *{
+    font-size: 100px;
+} */
+
+
+#p1,#p3{
+    /* font-weight: bolder; */
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style:oblique;
+/* text-decoration:underline line-through overline blue; */
+background-color: blueviolet;
+color: white;
+width: 200px;
+/* line-height: 200%; */
+/* margin-left: 200px; */
+
+}
+
+/* p:hover{
+    color: pink;
+    font-size: large;
+} */
+
+a:visited{
+    color: tomato;
+}
+
+/* #longtext::first-line{
+    color: crimson;
+} */
+
+#longtext::first-letter{
+font-size: 100px;
+color: darkblue;
+}
+/* #off::first-letter{
+    font-size: 100px;
+    color: darkred;
+} */
+span{
+    margin-left: 3px;
+}
+
+#click:hover{
+    background-color: black;
+    color: white;
+}
+
+#eye{
+    height: 200px;
+    width: 200px;
+    /* border: 20px solid black; */
+    /* border: 20px dotted black; */
+    /* border: 20px dashed black; */
+    /* border: 20px groove purple; */
+    border-top: 5px solid black;
+    border-bottom: 5px dotted red;
+    border-left:5px groove yellowgreen;
+    border-right: 10px groove yellowgreen;
+    border-radius: 150px;
+    box-shadow: 7px 7px gray;
+}
+
